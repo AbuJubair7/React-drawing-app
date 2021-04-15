@@ -11,7 +11,7 @@ This is used to get the element in functional components
 ### `React.useEffect(()=>{...})`
 
 Because of react render the funtion at the end so if we want to get the element data we need to wrap it.
-This funtion us used to get get data. It use a callback method to get the data from component
+This funtion ss used to get data. It uses a callback method to get the data from component
 
 ### `ref.current`
 
@@ -33,13 +33,10 @@ This is used to get component data after DOM loads.
 
 # Event in React (Get the current event data)
 
-The event object returned by react is a react SyntheticEvent which wraps the normal JavaScript event object
-and contains some cross browser conveniences.
-
 ### `e.nativeEvent`
 
 **Note: In React The event object returned by react is a react SyntheticEvent which wraps the** **normal JavaScript event object**
 **and contains some cross browser conveniences**
 
-That's why we nee to call it as e.nativeEvent.offsetX
+That's why we need to call it as e.nativeEvent.offsetX
 here `nativeEvent` helps us to get the actual event.
