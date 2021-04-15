@@ -1,4 +1,4 @@
-# Get element in and Event in React
+# Get element and Event in React
 
 ### There are two type of component in react (Functional & Class)
 
