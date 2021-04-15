@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(59, 100, 88);
+}
+
+.timeSyle {
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.para-style {
+  text-shadow: 10px 5px 3px gray;
+  text-align: center;
+}
+
+.info {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  width: 15%;
+  height: 150px;
+  padding: 2%;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px gray;
+  margin-top: 15px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.product-card {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  width: 20%;
+  height: 300px;
+  padding: 2%;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px gray;
+  margin-top: 15px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.icr {
+  background-color: green;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 1.5em;
+  border: none;
+  color: white;
+  outline: none;
+  flex: 1;
+}
+
+.dcr {
+  background-color: red;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 1.5em;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+  flex: 1;
+}
+.state-count {
+  flex: 1;
+}
+
+.icr:hover {
+  box-shadow: 2px 2px 3px 2px green;
+  cursor: pointer;
+}
+
+.dcr:hover {
+  box-shadow: 2px 2px 3px 2px red;
+  cursor: pointer;
+}
+.state-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  border: 2px solid green;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  outline-color: blueviolet;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.text-input:focus {
+  box-shadow: 1px 1px 3px blueviolet;
+  width: 400px;
+  transition: 0.2s ease-in-out;
+}
+.event-para {
+  color: blueviolet;
+  font-weight: bolder;
+}
+::placeholder {
+  padding: 0px 4px;
+}
+
+.colorSelect {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 70px;
+  font-weight: bold;
+}

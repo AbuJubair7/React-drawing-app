@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Macbook pro",
+    "model": "A5",
+    "price": "566$"
+  },
+  {
+    "name": "Asus",
+    "model": "Vivobook",
+    "price": "366$"
+  },
+  {
+    "name": "Dell",
+    "model": "X-series",
+    "price": "466$"
+  },
+  {
+    "name": "HP",
+    "model": "Pavillion",
+    "price": "366$"
+  }
+]
